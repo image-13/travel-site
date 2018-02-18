@@ -1,5 +1,5 @@
 const validator = require('validator')
 
-const myEmail = 'abc@123'
+const myEmail = 'abc@123.com'
 
-validator.isEmail(myEmail)
+console.log(validator.isEmail(myEmail))
